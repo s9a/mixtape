@@ -8,12 +8,12 @@
 - [Test colors to make sure contrast ratio is 4.5+ to meet web standards](https://leaverou.github.io/contrast-ratio) :p
 - `a` and `b` by design are for light and dark or vice versa and the numbers are for accenting colors
 
-```
+```css
 :root {
   --tape-a: #f5f5f5;
   --tape-b: #090909;
-  --tape-2: /*...*/;
   --tape-1: /*...*/;
+  --tape-2: /*...*/;
   --tape-3: /*...*/;
   --tape-4: /*...*/;
   --tape-5: /*...*/;
