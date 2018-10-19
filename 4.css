@@ -1,0 +1,30 @@
+.tape-clean:not(.tape-unclean),
+.tape-clean :not(.tape-unclean) {
+  background: transparent;
+  color: inherit;
+}
+
+.tape-flat:not(.tape-unflat),
+.tape-flat :not(.tape-unflat) {
+  border-color: transparent;
+}
+
+.tape-a { --tape-hex: var(--tape-a) }
+.tape-1 { --tape-hex: var(--tape-1) }
+.tape-2 { --tape-hex: var(--tape-2) }
+.tape-3 { --tape-hex: var(--tape-3) }
+.tape-4 { --tape-hex: var(--tape-4) }
+
+.tape-1,
+.tape-2,
+.tape-3,
+.tape-4,
+.tape-a {
+  background: var(--tape-hex) !important;
+  color: var(--tape-b) !important;
+}
+
+.tape-b {
+  background: var(--tape-b) !important;
+  color: var(--tape-hex, var(--tape-a)) !important;
+}
